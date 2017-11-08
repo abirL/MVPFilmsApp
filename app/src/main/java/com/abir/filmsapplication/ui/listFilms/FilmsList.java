@@ -44,7 +44,6 @@ public class FilmsList extends AppCompatActivity implements FilmsListView {
         setSupportActionBar(toolbar);
         presenter = new FilmPresenter(this);
         presenter.getListFilms();
-
     }
     @Override protected void onResume() {
         super.onResume();
