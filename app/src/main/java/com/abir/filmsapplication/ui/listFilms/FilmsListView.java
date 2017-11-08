@@ -2,7 +2,6 @@ package com.abir.filmsapplication.ui.listFilms;
 
 
 import com.abir.filmsapplication.model.Film;
-
 import java.util.List;
 
 public interface FilmsListView {
